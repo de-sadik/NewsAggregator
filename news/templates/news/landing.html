@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NEWS AGGREGATOR</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'news/css/style.css' %}">
+	    </head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="{% static 'news/images/logo.png' %}">
+
+			</div>
+			<ul>
+				  
+				  <li><a href="{% url 'index' %}">Home</a></li>
+				  <li><a href="{% url 'serach' %}">Search</a></li>
+                  <!-- <li><a href="#">Refresh</a></li> -->
+                  <li><a href="{% url 'categorey' %}">Categories</a></li>
+				  <!--<li><a href="#">Search</a></li>
+
+				   <label for="categories">Choose a News Categories:</label>
+
+			
+  				<option value="sports">Sports</option>
+  				<option value="edu">Education</option>
+  				<option value="politics">Polytics</option>
+  				<option value="covid">Covid</option>
+			     -->
+			
+			</ul>
+		</div>
+		<div class="Title">
+			<h1>News Aggregator</h1>
+		</div>
+    </header>
+    <div class="about-section">
+  <h1>About Us </h1>
+  <p>We are Computer engineering students willing to develop the softwares with new techologies.</p>
+  <p></p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <!-- <img src="1.jpg" alt="Jane" style="width:100%"> -->
+      <div class="container">
+        <h2>Swapnil Deshpande</h2>
+        <p class="title">COMPUTER ENGG</p>
+        <p>International Institute of Information Technology</p>
+        <P>Pune</p>
+        <p>swapnildeshpande412@gmail.com</p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!-- <img src="1.jpg" alt="Mike" style="width:100%"> -->
+      <div class="container">
+        <h2>Prerna Ghante</h2>
+        <p class="title">COMPUTER ENGG</p>
+        <p>International Institute of Information Technology</p>
+        <P>Pune</p>
+        <p>ghanteperi@gmail.com</p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!-- <img src="1.jpg" alt="John" style="width:100%"> -->
+      <div class="container">
+        <h2>Sadik Shaikh</h2>
+        <p class="title">COMPUTER ENGG</p>
+        <p>International Institute of Information Technology</p>
+        <P>Pune</p>
+        <p>sadikmshaikh34@gmail.com</p>
+        
+      </div>
+    </div>
+  </div>
+		
+    </div>
+</body>
+</html>

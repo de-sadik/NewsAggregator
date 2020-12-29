@@ -1,0 +1,78 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'news/css/categorey.css' %}">
+</head>
+
+<body>
+    <table id="table">
+        <tr>
+            <td colspan="2">
+                <div class="header">NewsAggregator</div>
+            </td>
+            <td colspan="2" style="text-align:right;">
+                
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="div1">
+                    <img src="{% static 'news/images/news.png' %}" style="width: 50%;" />
+                    <p></p>
+                    <a href="{% url 'topnews' %}"> <button class="btn btn1">Top News</button></a>
+                    <br /><br />
+                </div>
+            </td>
+            <td>
+                <div class="div1">
+                <img src="{% static 'news/images/teaching.png' %}" style="width: 50%;" />
+                <p></p>
+                    <a href="{% url 'space' %}"><button class="btn btn2">Others</button></a>
+                <br /><br />
+                </div>
+            </td>
+            <td>
+                <div class="div1">
+                <img src="{% static 'news/images/healthcare.png' %}" style="width: 50%;" />
+                <p></p>
+                <a href="{% url 'health' %}"> <button class="btn btn3">Health</button></a>
+                <br /><br />
+                </div>
+            </td>
+            <td>
+                <div class="div1">
+                <img src="{% static 'news/images/running (1)' %}.png" style="width: 50%;" />
+                <p></p>
+                <a href="{% url 'sports' %}"><button class="btn btn4">Sports</button></a>
+                <br /><br />
+                </div>
+            </td>
+            <td>
+                <div class="div1">
+                <img src="https://w7.pngwing.com/pngs/732/706/png-transparent-political-science-politics-in-practice-politics.png" style="width: 50%;" />
+                <p></p>
+                <a href="{% url 'political' %}"><button class="btn btn2">Political</button></a>
+                <br /><br />
+                </div>
+            </td>
+            <td>
+                <div class="div1">
+                <img src="https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_700x394/public/2020/07/31/125693-nissan-suv.PNG?itok=LxhWRSbS" style="width: 50%;" />
+                <p></p>
+                    <a href="{% url 'auto' %}"><button class="btn btn2">Auto</button></a>
+                <br /><br />
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">&nbsp;</td>
+        </tr>
+        
+    </table>
+</body>
+
+</html>
