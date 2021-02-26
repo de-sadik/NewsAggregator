@@ -13,6 +13,7 @@ It is a web application which aggregates data (news articles) from multiple webs
 A news aggregator makes this task easier. In a news aggregator, you can select the websites you want to follow. Then the news aggregator collects the articles for you. And, you are just a click away to get information from various websites.
 This aggregator will be capable of retrieving information from news portal websites based on different categories like  title, image, link and so on in future but till date only image and  title factor is considered.  The user is provided with a link of the site that drives them to a specific page where they find the detailed information about the news aggregator.
 3        TECHNOLOGY USED
+
 A news aggregator is a combination of web crawlers and web applications. Both of these technologies have their implementation in Python. That makes it easier for us.
 So, our news aggregator will work in 3 steps:
 It scrapes the web for the articles. (In this Django project, we are scraping a website called indianexpress)
@@ -22,9 +23,10 @@ So, that’s how our web app will work.
 
 
 4        METHODOLOGY
-          there are four modules use for news aggregator as follows:
-           1.Home- where user will get all latest news scraped from various news portal
-           sites. their user will get links, titles and images related to that news.
+          
+ There are four modules use for news aggregator as follows:
+ 1.Home- where user will get all latest news scraped from various news portal
+ sites. their user will get links, titles and images related to that news.
 2.Refresh- refresh is a feature where users will replace news with the latest news scrap by news aggregator.
 3.search-here user can search for different news what he wants to search from news aggregator.
 4.categories-where all news are categorised into different genres as the news containing that related news.
@@ -56,20 +58,23 @@ with open('news', 'r') as f:
 
 
 4.2     SOFTWARE REQUIREMENTS
-           1.Python 3.8
-           2.HTML/CSS,
+   
+1.Python 3.8
+2.HTML/CSS,
 3.Django framework	
 4.SQLite 	
 5.Windows 10 operating system
 
 
 4.3     LIBRARIES/PACKAGES USED
+5.
            You need to have some basics of these libraries:
 BeautifulSoup-BeautifulSoup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.
 requests module-The request  module allows you to send HTTP requests using Python.The HTTP request returns a response object with all the response data (content, encoding, status, etc).
  
  
-5      RESULT
+5      RESULT:
+
          
                                                      
 
